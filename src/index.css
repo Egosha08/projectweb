@@ -1,0 +1,53 @@
+#root {
+	max-width: 1140px;
+	margin: 0 auto;
+	
+}
+
+html,body {
+	font-family: 'Roboto', sans-serif;
+	background-color:#fff;
+}
+
+*,*::before,*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.form {
+	display: flex;
+}
+
+.todo-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #001528;
+	margin-bottom: 1rem;
+	padding: 8px;
+	
+}
+h1{
+	color: #fff;
+	text-align: center;
+}
+
+h3 {
+	margin-left: 1rem;
+	color:#fff;
+	
+}
+
+.btn {
+	height: 40px;
+	padding: 0 40px 0 40px;
+	border-radius: 8px;
+	border: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+	opacity: .75;
+}
